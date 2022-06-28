@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript" src="formjs.js"></script>
+  <link rel="stylesheet" type="text/css" href="formcss.css">
+</head>
+<body>
+  <form action="">
+    Nombre: <input type="text" name="nombre" id="name"><br>
+    <p id='nm'></p>
+    email:  <input type="email" name="correo" id="mail">
+    <p id="c"></p>
+    <br><br>
+    Medio de transporte: <br>
+    <input type="checkbox" name="transporte" value="Coche" id="auto">
+    <label for="auto">Coche</label>
+    <br>
+    <input type="checkbox" name="transporte" value="Moto" id="moto">
+    <label for="moto">Motocicleta</label>
+    <br>
+    <input type="checkbox" name="transporte" value="Bicicleta" id="bici">
+    <label for="bici">Bicicleta</label>
+    <br><br>
+    Tipo de vivienda: <br>
+    <input type="radio" name="casa" value="casa" id="casa">
+    <label for="casa">Casa</label>
+    <br>
+    <input type="radio" name="casa" value="Departamento" id="dpto">
+    <label for="dpto">Departamento</label>
+    <br>
+    <input type="radio" name="casa" value="loft" id="loft">
+    <label for="loft">Loft</label>
+    <br><br>
+    Fecha de nacimiento: <br>
+    <input type="datetime-local" id="fecha">
+    <br><br>
+    Color favorito: <br>
+    <input type="color" id="color">
+    <br><br>
+    Estado de animo: <br>
+    <input type="range" min="0" max="10" id="animo">
+  </form>
+    <button onclick="proceso()">Enviar</button>
+    <br>
+    <br>
+    <br>
+    <table id="resultado"></table>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="dinero.css">
+  <title>Contadora de dinero</title>
+  <script src="dinero.js"></script>
+</head>
+<body>
+  <div id="holder">
+    <h1>Contadora de dinero</h1>
+  <div id="tabla">
+    <form action="">
+      <table id="inputs">
+        <tr>
+          <th>Monedas</th>
+          <th>Billetes</th>
+        </tr>
+        <tr>
+          <td>50 centavos<input type="number" id="centavos"></td>
+          <td>20 pesos<input type="number" id="pesos20"></td>
+        </tr>
+        <tr>
+          <td>1 peso <input type="number" id="pesos1"></td>
+          <td>50 pesos <input type="nmber" id="pesos50"></td>
+        </tr>
+        <tr>
+          <td>2 pesos <input type="number" id="pesos2"></td>
+          <td>100 pesos <input type="number" id="pesos100"></td>
+        </tr>
+        <tr>
+          <td>5 pesos <input type="number" id="pesos5"></td>
+          <td>200 pesos <input type="number" id="pesos200"></td>
+        </tr>
+        <tr>
+          <td>10 pesos <input type="number" id="pesos10"></td>
+          <td>500 pesos <input type="number" id="pesos500"></td>
+        </tr>
+      </table>
+      <button type="button" onclick="calcula()">Calclar</button>
+    </form>
+    <h2 id="total"></h2>
+  </div>
+  </div>
+  <div id=image>
+    <img src="dinero.gif" alt="Texto Alternativo">
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#inputs{
+  text-align: center;
+}
+body{
+  background-color: #80ffdb;
+}
+#tabla{
+  position:relative;
+  left:650px;
+  top:250px;
+  right: 500px;
+
+}
+
+#image{
+  position:absolute;
+  top:200px;
+  left:1200px;
+}
